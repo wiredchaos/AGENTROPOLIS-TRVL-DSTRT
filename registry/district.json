@@ -1,0 +1,40 @@
+{
+  "id": "agentropolis-trvl-dstrt",
+  "name": "TRVL DSTRT",
+  "display_name": "AGENTROPOLIS Travel District",
+  "layer": "district",
+  "status": "under_construction",
+  "domain": [
+    "travel-search",
+    "lodging",
+    "routing",
+    "itinerary",
+    "approvals",
+    "alerts",
+    "booking-orchestration"
+  ],
+  "primary_application": "concierge54",
+  "governance": {
+    "explicit_approval_required": true,
+    "irreversible_actions": [
+      "book",
+      "pay",
+      "cancel",
+      "change-reservation",
+      "share-traveler-data"
+    ],
+    "audit_required": true,
+    "provider_lock_in_prohibited": true
+  },
+  "skills": [
+    "wayfinder",
+    "flightline",
+    "staygrid",
+    "route54",
+    "fareguard",
+    "clearance",
+    "arrival",
+    "tripwire"
+  ],
+  "license": "Apache-2.0"
+}
